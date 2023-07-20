@@ -1,5 +1,5 @@
 // instructions to all classes on how to be an argument
-interface Mappable {
+export interface Mappable {
   location: {
     lat: number;
     lng: number;
