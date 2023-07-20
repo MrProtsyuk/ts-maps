@@ -14,4 +14,10 @@ export class User {
       lng: faker.location.longitude(),
     };
   }
+
+  markerContent(): string {
+    return `
+        <h1>User Name: ${this.name}</h1>
+    `;
+  }
 }
